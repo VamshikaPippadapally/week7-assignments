@@ -1,0 +1,6 @@
+FROM ruby:2.5
+
+COPY sample.rb .
+
+CMD ["ruby","sample.rb"]
+
